@@ -36,8 +36,8 @@ if automata.is_valid():
         print(f"vai do estado {estado_ant} para o estado {estado_atual}")
     else:
       print("\n*****ATENÇÃO! INDETERMINAÇÃO NO AUTÔMATO*****")
-      print(f"A simulação foi encerrada pois o comando {c} não é válido!")
+      print(f"A simulação foi encerrada pois o comando {c} não é válido!\n")
       seq_valida = not seq_valida
       break
   if seq_valida:
-    print(f"\nAssim, essa sequência de comandos finaliza no estado {estado_atual}")
+    print(f"\nAssim, essa sequência de comandos finaliza no estado {estado_atual}\n")
